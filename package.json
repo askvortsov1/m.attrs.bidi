@@ -1,0 +1,34 @@
+{
+  "name": "m.attrs.bidi",
+  "version": "1.0.0",
+  "description": "Bi-directional binding for Mithril. Works as a component and as a custom attribute.",
+  "main": "bidi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barneycarroll/m.attrs.bidi.git"
+  },
+  "keywords": [
+    "mithril",
+    "bidi",
+    "bi-directional",
+    "data",
+    "binding",
+    "form",
+    "input",
+    "custom",
+    "attribute",
+    "component"
+  ],
+  "author": "barney.carroll@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/m.attrs.bidi/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/m.attrs.bidi",
+  "devDependencies": {
+    "mithril": "file:../../../../../var/folders/d4/cssz420n4j70gz5wb__bvq8r0000gn/T/npm-19625-e3da16ce/git-cache-661f26ed2cfa/a901349824bf67accd5181abbe18c71f6311bb1c"
+  }
+}
