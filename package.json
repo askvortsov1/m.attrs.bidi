@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/barneycarroll/m.attrs.bidi",
   "devDependencies": {
-    "mithril": "file:../../../../../var/folders/d4/cssz420n4j70gz5wb__bvq8r0000gn/T/npm-19625-e3da16ce/git-cache-661f26ed2cfa/a901349824bf67accd5181abbe18c71f6311bb1c"
+    "mithril": "git://github.com/barneycarroll/mithril.js.git#m.attrs"
   }
 }
