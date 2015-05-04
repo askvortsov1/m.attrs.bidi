@@ -61,8 +61,10 @@
 	}
 
 	bidi.view = function( ctrl, node, prop ){
-	  return bidi( node, prop )
+	  return bidi( node, node.attrs.bidi )
 	}
 
-	return m.attrs.bidi = bidi
+	if( m.attrs ) m.attrs.bidi = bidi
+
+	return bidi
 } ) )
