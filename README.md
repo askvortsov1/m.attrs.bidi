@@ -1,7 +1,7 @@
 # m.attrs.bidi
 Bi-directional binding for Mithril!
 
-As a custom attribute (requires [custom attribute fork](#m.attrs)):
+As a custom attribute (requires [custom attribute](#m.attrs) fork):
 
 ```javascript
 m( 'input', {
@@ -29,7 +29,7 @@ npm install m.attrs.bidi --save
 bower install m.attrs.bidi --save
 ```
 
-When
+The plugin will attach itself as m.attrs.bidi and return / export / expose the same object as a module. The entity in question is both a component and a transformation function that works as a custom attribute.
 
 ```javascript
 // Node / Browserify
@@ -88,3 +88,7 @@ m( 'input[type=checkbox]', {
 	bidi : valueProp
 } )
 ```
+
+### <a id="m.attrs"></a> Custom attributes?
+
+Custom attributes are a feature request for Mithril. You may be interested in the [Github discussion](https://github.com/lhorie/mithril.js/pull/586), and in the [fork](https://github.com/barneycarroll/m.attrs.bidi/blob/master/bidi.js) of Mithril that implements the proposal.
