@@ -65,6 +65,8 @@
 	}
 
 	if( m.attrs ) m.attrs.bidi = bidi
+	
+	m.bidi = bidi
 
 	return bidi
 } ) )
