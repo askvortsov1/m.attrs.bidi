@@ -1,4 +1,4 @@
-( function package( factory ){
+( function _package( factory ){
 	if( typeof define === 'function' && define.amd ){
 		define( [ 'mithril' ], factory )
 	}
